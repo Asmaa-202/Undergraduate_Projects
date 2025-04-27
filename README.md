@@ -13,24 +13,24 @@ Alao allows controlling an LED remotely via MQTT application.
 
  ### 🧩 Used Technologies
 
-  •	ESP32 Wi-Fi Microcontroller  
-	•	MQTT Protocol (with EMQX broker)  
+  •	ESP32 Wi-Fi Microcontroller    
+	•	MQTT Protocol (with EMQX broker)   
 	•	Arduino IDE for programming   
 	•	WiFi.h and PubSubClient.h libraries 
 
  ### ⚙️ Hardware Tools
 
   •	ESP32 board
-	•	IR sensor module
-	•	LED
-	•	Resistor
-	•	Breadboard and jumper wires
+	•	IR sensor module  
+	•	LED  
+	•	Resistor  
+	•	Breadboard and jumper wires  
 
 
  ### 🛠 Circuit
 
-  •	IR sensor connected to GPIO 4 (input).
-	•	LED connected to GPIO 18 (output) with a resistor.
+  •	IR sensor connected to GPIO 4 (input).   
+	•	LED connected to GPIO 18 (output) with a resistor.    
 
  ### 📡 MQTT topics
 
