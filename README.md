@@ -42,11 +42,11 @@ Alao allows controlling an LED remotely via MQTT application.
 ### 🤖 Working Mechanism
 
 
-  1.	ESP32 connects to the Wi-Fi network.
-	2.	Connects to the MQTT broker.
-	3.	Continuously monitors the IR sensor:	Publishes “OBJECT_DETECTED” or “NO_OBJECT_DETECTED” based on object presence.
-	5.	Listens for incoming MQTT messages to turn the LED ON or OFF.
-	6.	Updates LED status based on received commands.
+  1.	ESP32 connects to the Wi-Fi network.  
+	2.	Connects to the MQTT broker.  
+	3.	Continuously monitors the IR sensor: Publishes “OBJECT_DETECTED” or “NO_OBJECT_DETECTED” based on object presence.  
+	4.	Listens for incoming MQTT messages to turn the LED ON or OFF.  
+	5.	Updates LED status based on received commands.  
 
 ### 📝 Notes
 
