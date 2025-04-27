@@ -50,9 +50,10 @@ Alao allows controlling an LED remotely via MQTT application.
 
 ### 📝 Notes
 
-  •	The device will publish a status update every 3 seconds.
-	•	If disconnected from Wi-Fi or MQTT, the ESP32 will attempt to reconnect automatically.
-	•	QoS level 0 (at most once) is used for will message settings on the broker.
+ 
+ •      The device will publish a status update every 3 seconds.  
+	•	If disconnected from Wi-Fi or MQTT, the ESP32 will attempt to reconnect automatically.   
+	•	QoS level 0 (at most once) is used for will message settings on the broker.   
 
 ### 📞 Contact
 
